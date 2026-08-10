@@ -325,9 +325,65 @@ body {
     text-align: center;
   }
 
+  .navbar nav {
+    justify-content: center;
+  }
+
   .about-content {
     flex-direction: column;
     text-align: center;
+  }
+
+  .about-content img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-text {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .photography-slider,
+  .photography-slider-2,
+  .photography-slider-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .photography-card {
+    height: auto;
+  }
+
+  .photography-card > img {
+    position: relative;
+    height: auto;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .index-content {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .index-content h2 {
+    position: static;
+    transform: none;
+    width: 100%;
+    padding: 0 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .index-content p {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: calc(100% - 32px);
+    padding: 16px;
   }
 
   .divider {
